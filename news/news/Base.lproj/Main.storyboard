@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F2c-ia-NgJ">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F2c-ia-NgJ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -98,27 +98,96 @@
                                     <action selector="ESPN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ECj-C8-TfD"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hindu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bLR-Xn-zTT">
+                                <rect key="frame" x="16" y="163" width="213" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="jqe-r0-E6g"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bbc.png" translatesAutoresizingMaskIntoConstraints="NO" id="CQL-3p-Maa">
+                                <rect key="frame" x="128" y="222" width="157" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="wNC-2G-fAY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cnn.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Df-Uv-hQ4">
+                                <rect key="frame" x="16" y="292" width="136" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="eEL-T3-m2R"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newyork.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iyN-gB-blc">
+                                <rect key="frame" x="62" y="352" width="271" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="TQu-sY-a5W"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fox sport.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WLO-up-1eB">
+                                <rect key="frame" x="16" y="446" width="136" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="JqU-Bd-gOV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="national geographic.png" translatesAutoresizingMaskIntoConstraints="NO" id="5J7-UB-8pM">
+                                <rect key="frame" x="87" y="512" width="246" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dqK-ar-uYJ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="times-of-india-logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aaM-fg-zHK">
+                                <rect key="frame" x="118" y="88" width="190" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="Ei0-Hv-5AP"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wcN-VU-Se9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="0iA-IB-mUR"/>
                             <constraint firstAttribute="trailing" secondItem="0a1-fC-UOv" secondAttribute="trailing" constant="105" id="2NE-Jv-4hc"/>
                             <constraint firstItem="hub-kb-qQo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="128" id="2yA-iF-Gbe"/>
+                            <constraint firstAttribute="trailing" secondItem="bLR-Xn-zTT" secondAttribute="trailing" constant="146" id="3Zl-6a-AVA"/>
                             <constraint firstAttribute="trailing" secondItem="wcN-VU-Se9" secondAttribute="trailing" constant="67" id="5Yd-fW-sU1"/>
+                            <constraint firstAttribute="trailing" secondItem="iyN-gB-blc" secondAttribute="trailing" constant="42" id="6cl-kE-G9B"/>
                             <constraint firstItem="0a1-fC-UOv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="AFy-2n-Qe3"/>
+                            <constraint firstItem="bLR-Xn-zTT" firstAttribute="top" secondItem="aaM-fg-zHK" secondAttribute="bottom" constant="26" id="Bba-hn-ct5"/>
                             <constraint firstItem="5QI-1a-ToX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="62" id="CNH-Cg-w2H"/>
+                            <constraint firstItem="3Df-Uv-hQ4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Cg8-RQ-Rfu"/>
+                            <constraint firstItem="aaM-fg-zHK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="DQY-f1-BpE"/>
                             <constraint firstAttribute="trailing" secondItem="5QI-1a-ToX" secondAttribute="trailing" constant="42" id="Djy-Vf-n7W"/>
+                            <constraint firstItem="aaM-fg-zHK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="118" id="EMI-db-h6N"/>
+                            <constraint firstAttribute="trailing" secondItem="aaM-fg-zHK" secondAttribute="trailing" constant="67" id="FBb-B5-20f"/>
                             <constraint firstItem="wcN-VU-Se9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="109" id="HeX-PF-n7h"/>
+                            <constraint firstItem="aaM-fg-zHK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="Jll-f7-Bsv"/>
                             <constraint firstItem="hub-kb-qQo" firstAttribute="top" secondItem="0a1-fC-UOv" secondAttribute="bottom" constant="18" id="MZK-A3-VlS"/>
                             <constraint firstAttribute="trailing" secondItem="9UJ-cH-lgm" secondAttribute="trailing" constant="223" id="P39-EM-bNn"/>
                             <constraint firstItem="9UJ-cH-lgm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="PXG-w3-iUy"/>
+                            <constraint firstItem="CQL-3p-Maa" firstAttribute="top" secondItem="bLR-Xn-zTT" secondAttribute="bottom" constant="18" id="Pxj-6U-uFi"/>
+                            <constraint firstAttribute="trailing" secondItem="CQL-3p-Maa" secondAttribute="trailing" constant="90" id="R8W-MJ-bpE"/>
+                            <constraint firstAttribute="trailing" secondItem="aaM-fg-zHK" secondAttribute="trailing" constant="67" id="Sjf-cM-RXC"/>
                             <constraint firstItem="9UJ-cH-lgm" firstAttribute="top" secondItem="hub-kb-qQo" secondAttribute="bottom" constant="29" id="Teh-bm-kDx"/>
                             <constraint firstItem="3ti-MH-eri" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="VWb-uT-Uen"/>
+                            <constraint firstItem="WLO-up-1eB" firstAttribute="top" secondItem="iyN-gB-blc" secondAttribute="bottom" constant="50" id="W2z-bL-cJP"/>
                             <constraint firstItem="FGz-u5-ZV0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="87" id="auX-RX-YWY"/>
+                            <constraint firstItem="WLO-up-1eB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="bL1-j6-JgN"/>
+                            <constraint firstItem="iyN-gB-blc" firstAttribute="top" secondItem="3Df-Uv-hQ4" secondAttribute="bottom" constant="23" id="brQ-1s-DVv"/>
                             <constraint firstAttribute="trailing" secondItem="3ti-MH-eri" secondAttribute="trailing" constant="170" id="e37-GI-rKU"/>
+                            <constraint firstItem="3Df-Uv-hQ4" firstAttribute="top" secondItem="CQL-3p-Maa" secondAttribute="bottom" constant="29" id="fC8-x2-azd"/>
+                            <constraint firstItem="aaM-fg-zHK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="118" id="fCh-fE-xKy"/>
                             <constraint firstItem="FGz-u5-ZV0" firstAttribute="top" secondItem="3ti-MH-eri" secondAttribute="bottom" constant="32" id="fdO-eJ-ZAC"/>
+                            <constraint firstItem="iyN-gB-blc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="62" id="j8h-kB-FWl"/>
+                            <constraint firstItem="5J7-UB-8pM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="87" id="mWv-ER-tE6"/>
+                            <constraint firstAttribute="trailing" secondItem="5J7-UB-8pM" secondAttribute="trailing" constant="42" id="oMy-d0-ZvK"/>
                             <constraint firstItem="3ti-MH-eri" firstAttribute="top" secondItem="5QI-1a-ToX" secondAttribute="bottom" constant="50" id="orM-sz-96n"/>
+                            <constraint firstAttribute="trailing" secondItem="WLO-up-1eB" secondAttribute="trailing" constant="223" id="p2B-47-RXI"/>
                             <constraint firstAttribute="trailing" secondItem="hub-kb-qQo" secondAttribute="trailing" constant="90" id="pcN-pP-cQz"/>
+                            <constraint firstAttribute="trailing" secondItem="3Df-Uv-hQ4" secondAttribute="trailing" constant="223" id="rat-kG-Ox5"/>
+                            <constraint firstItem="aaM-fg-zHK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="118" id="rbx-eU-pkM"/>
+                            <constraint firstItem="5J7-UB-8pM" firstAttribute="top" secondItem="WLO-up-1eB" secondAttribute="bottom" constant="19" id="sGq-iJ-6E3"/>
+                            <constraint firstItem="CQL-3p-Maa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="128" id="tgG-Cm-9Bw"/>
+                            <constraint firstItem="bLR-Xn-zTT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="wud-mg-eFh"/>
+                            <constraint firstItem="aaM-fg-zHK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="xKO-kD-cZu"/>
+                            <constraint firstAttribute="trailing" secondItem="aaM-fg-zHK" secondAttribute="trailing" constant="67" id="xd5-Xp-bdO"/>
                             <constraint firstAttribute="trailing" secondItem="FGz-u5-ZV0" secondAttribute="trailing" constant="42" id="yGz-y0-xgi"/>
                             <constraint firstItem="5QI-1a-ToX" firstAttribute="top" secondItem="9UJ-cH-lgm" secondAttribute="bottom" constant="23" id="zQs-rP-UnJ"/>
                             <constraint firstItem="0a1-fC-UOv" firstAttribute="top" secondItem="wcN-VU-Se9" secondAttribute="bottom" constant="34" id="zku-3m-TCh"/>
@@ -164,7 +233,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="165" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rbq-st-ktK">
-                                <rect key="frame" x="0.0" y="67" width="375" height="487"/>
+                                <rect key="frame" x="0.0" y="67" width="375" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -172,7 +241,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="165"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9mf-b7-0Pm" id="pDF-pf-bvn">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="164"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="165"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrH-Ef-Z51">
@@ -197,7 +266,7 @@
                                                     </connections>
                                                 </textView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sat1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Gwx-0B-RIY">
-                                                    <rect key="frame" x="253" y="83" width="65" height="66"/>
+                                                    <rect key="frame" x="290" y="83" width="65" height="66"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="65" id="bas-Dq-bUu"/>
                                                     </constraints>
@@ -206,9 +275,9 @@
                                             <constraints>
                                                 <constraint firstItem="rrH-Ef-Z51" firstAttribute="leading" secondItem="pDF-pf-bvn" secondAttribute="leading" constant="8" id="3eQ-su-udH"/>
                                                 <constraint firstItem="rrH-Ef-Z51" firstAttribute="top" secondItem="pDF-pf-bvn" secondAttribute="top" constant="8" id="9DO-zE-TXh"/>
-                                                <constraint firstAttribute="bottom" secondItem="Gwx-0B-RIY" secondAttribute="bottom" constant="15" id="GfI-3P-yAh"/>
+                                                <constraint firstAttribute="bottom" secondItem="Gwx-0B-RIY" secondAttribute="bottom" constant="16" id="GfI-3P-yAh"/>
                                                 <constraint firstItem="Gwx-0B-RIY" firstAttribute="top" secondItem="rrH-Ef-Z51" secondAttribute="bottom" constant="25" id="GrW-0D-V3R"/>
-                                                <constraint firstAttribute="trailing" secondItem="Gwx-0B-RIY" secondAttribute="trailing" constant="57" id="KLM-X7-sjs"/>
+                                                <constraint firstAttribute="trailing" secondItem="Gwx-0B-RIY" secondAttribute="trailing" constant="20" id="KLM-X7-sjs"/>
                                                 <constraint firstItem="ikS-7D-pBT" firstAttribute="top" secondItem="rrH-Ef-Z51" secondAttribute="bottom" constant="25" id="Wc4-hl-5C4"/>
                                                 <constraint firstAttribute="trailing" secondItem="rrH-Ef-Z51" secondAttribute="trailing" constant="41" id="aW5-XW-qee"/>
                                                 <constraint firstItem="ikS-7D-pBT" firstAttribute="leading" secondItem="pDF-pf-bvn" secondAttribute="leading" constant="8" id="gYw-1G-F5i"/>
@@ -270,6 +339,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bbc.png" width="465" height="108"/>
+        <image name="cnn.png" width="324" height="155"/>
+        <image name="fox sport.jpg" width="290" height="174"/>
+        <image name="hindu.jpg" width="339" height="149"/>
+        <image name="national geographic.png" width="414" height="122"/>
+        <image name="newyork.jpg" width="400" height="126"/>
         <image name="sat1.jpg" width="318" height="159"/>
+        <image name="times-of-india-logo.jpg" width="450" height="237"/>
     </resources>
 </document>

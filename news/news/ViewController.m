@@ -57,7 +57,7 @@
     
     
     [self downloadDataFromURL:url withCompletionHandler:^(NSData *data) {
-        
+    
         // Check if any data returned.
         
         if (data != nil) {
@@ -81,7 +81,7 @@
             else{
                 
                 
-                
+                 NSLog(@"%@",returnedDict);
                 array = [returnedDict valueForKey:@"articles"];
                 //NSString *name=[array valueForKey:@"title"];
                 
@@ -176,7 +176,7 @@
 -(void)getdataout{
     NSLog(@"total news %lu",(unsigned long)array.count);
     
-    NSLog(@"total news %@",array1);
+    
     svc *svc= [self.storyboard instantiateViewControllerWithIdentifier:@"svc"];
     svc.data=array;
     
@@ -208,7 +208,7 @@
     [self getCountryInfo];
 }
 - (IBAction)ESPN:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=espn" ;
+    URLString = @"https://newsapi.org/v1/articles?source=fox-sports&sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de" ;
     [self getCountryInfo];
 }
 - (IBAction)NationalGeographic:(id)sender {

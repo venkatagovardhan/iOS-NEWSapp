@@ -28,6 +28,7 @@
 
     
     array1=_data;
+    NSLog(@"total news %lu",(unsigned long)array1.count);
     _page.hidden=YES;
     _back.hidden=YES;
     [_activityindicator startAnimating];

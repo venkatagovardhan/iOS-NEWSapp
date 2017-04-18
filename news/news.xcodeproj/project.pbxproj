@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75268F851EA57B2300C0C6FD /* bbc.png in Resources */ = {isa = PBXBuildFile; fileRef = 75268F7E1EA57B2300C0C6FD /* bbc.png */; };
+		75268F861EA57B2300C0C6FD /* cnn.png in Resources */ = {isa = PBXBuildFile; fileRef = 75268F7F1EA57B2300C0C6FD /* cnn.png */; };
+		75268F871EA57B2300C0C6FD /* espn.png in Resources */ = {isa = PBXBuildFile; fileRef = 75268F801EA57B2300C0C6FD /* espn.png */; };
+		75268F881EA57B2300C0C6FD /* hindu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75268F811EA57B2300C0C6FD /* hindu.jpg */; };
+		75268F891EA57B2300C0C6FD /* national geographic.png in Resources */ = {isa = PBXBuildFile; fileRef = 75268F821EA57B2300C0C6FD /* national geographic.png */; };
+		75268F8A1EA57B2300C0C6FD /* newyork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75268F831EA57B2300C0C6FD /* newyork.jpg */; };
+		75268F8B1EA57B2300C0C6FD /* times-of-india-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75268F841EA57B2300C0C6FD /* times-of-india-logo.jpg */; };
+		75268F8D1EA5882300C0C6FD /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 75268F8C1EA5882300C0C6FD /* AppIcon.appiconset */; };
+		75268F8F1EA597F400C0C6FD /* fox sport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75268F8E1EA597F400C0C6FD /* fox sport.jpg */; };
 		7576AFD01E4279990045A60F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7576AFCF1E4279990045A60F /* main.m */; };
 		7576AFD31E4279990045A60F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7576AFD21E4279990045A60F /* AppDelegate.m */; };
 		7576AFD61E42799A0045A60F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7576AFD51E42799A0045A60F /* ViewController.m */; };
@@ -38,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75268F7E1EA57B2300C0C6FD /* bbc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbc.png; sourceTree = "<group>"; };
+		75268F7F1EA57B2300C0C6FD /* cnn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cnn.png; sourceTree = "<group>"; };
+		75268F801EA57B2300C0C6FD /* espn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espn.png; sourceTree = "<group>"; };
+		75268F811EA57B2300C0C6FD /* hindu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hindu.jpg; sourceTree = "<group>"; };
+		75268F821EA57B2300C0C6FD /* national geographic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "national geographic.png"; sourceTree = "<group>"; };
+		75268F831EA57B2300C0C6FD /* newyork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newyork.jpg; sourceTree = "<group>"; };
+		75268F841EA57B2300C0C6FD /* times-of-india-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "times-of-india-logo.jpg"; sourceTree = "<group>"; };
+		75268F8C1EA5882300C0C6FD /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		75268F8E1EA597F400C0C6FD /* fox sport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fox sport.jpg"; sourceTree = "<group>"; };
 		7576AFCB1E4279980045A60F /* news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = news.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7576AFCF1E4279990045A60F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7576AFD11E4279990045A60F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,9 +131,18 @@
 				7576AFD21E4279990045A60F /* AppDelegate.m */,
 				7576AFD41E4279990045A60F /* ViewController.h */,
 				7576AFD51E42799A0045A60F /* ViewController.m */,
+				75268F8E1EA597F400C0C6FD /* fox sport.jpg */,
+				75268F8C1EA5882300C0C6FD /* AppIcon.appiconset */,
 				7576B0011E4280A40045A60F /* svc.h */,
 				7576B0021E4280A40045A60F /* svc.m */,
 				7576AFD71E42799A0045A60F /* Main.storyboard */,
+				75268F7E1EA57B2300C0C6FD /* bbc.png */,
+				75268F7F1EA57B2300C0C6FD /* cnn.png */,
+				75268F801EA57B2300C0C6FD /* espn.png */,
+				75268F811EA57B2300C0C6FD /* hindu.jpg */,
+				75268F821EA57B2300C0C6FD /* national geographic.png */,
+				75268F831EA57B2300C0C6FD /* newyork.jpg */,
+				75268F841EA57B2300C0C6FD /* times-of-india-logo.jpg */,
 				7576B0071E429EE40045A60F /* sat1.jpg */,
 				7576B0041E4285650045A60F /* nextcell.h */,
 				7576B0051E4285650045A60F /* nextcell.m */,
@@ -262,10 +289,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75268F891EA57B2300C0C6FD /* national geographic.png in Resources */,
+				75268F8B1EA57B2300C0C6FD /* times-of-india-logo.jpg in Resources */,
+				75268F881EA57B2300C0C6FD /* hindu.jpg in Resources */,
 				7576B0081E429EE40045A60F /* sat1.jpg in Resources */,
+				75268F8D1EA5882300C0C6FD /* AppIcon.appiconset in Resources */,
 				7576AFDE1E42799D0045A60F /* LaunchScreen.storyboard in Resources */,
 				7576AFDB1E42799C0045A60F /* Assets.xcassets in Resources */,
+				75268F8F1EA597F400C0C6FD /* fox sport.jpg in Resources */,
+				75268F8A1EA57B2300C0C6FD /* newyork.jpg in Resources */,
+				75268F861EA57B2300C0C6FD /* cnn.png in Resources */,
 				7576AFD91E42799A0045A60F /* Main.storyboard in Resources */,
+				75268F851EA57B2300C0C6FD /* bbc.png in Resources */,
+				75268F871EA57B2300C0C6FD /* espn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
