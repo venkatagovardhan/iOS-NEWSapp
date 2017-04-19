@@ -29,9 +29,12 @@
     
     array1=_data;
     NSLog(@"total news %lu",(unsigned long)array1.count);
+    
+    //Hide the webpage and activity indicator.
     _page.hidden=YES;
     _back.hidden=YES;
-    [_activityindicator startAnimating];
+    _activityindicator.hidden=YES;
+   
     // Do any additional setup after loading the view.
 }
 
@@ -65,7 +68,7 @@
         cell=[[nextcell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableidentifier];
     }
     
-    
+    // Load the values into the objects in the cell.
     cell.title.text=[[array1 objectAtIndex:indexPath.row] valueForKey:@"title"];
     
    
@@ -80,17 +83,21 @@
     
     return cell;
 }
+
+//Load the webview if the row is selected.
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+     [_activityindicator startAnimating];
     _page.hidden=false;
     _back.hidden=false;
     _tableview.hidden=true;
+    _activityindicator.hidden=false;
     NSString *urlstring=[[array1 objectAtIndex:indexPath.row] valueForKey:@"url"];
     NSURL *url=[NSURL URLWithString:urlstring];
     NSURLRequest *request=[NSURLRequest requestWithURL:url];
     
     [_page loadRequest:request];
-    NSLog(@"clicked the index %ld", (long)indexPath.row);
-    NSLog(@"url is %@",urlstring);
+    
   
     
 }

@@ -95,7 +95,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="ESPN"/>
                                 <connections>
-                                    <action selector="ESPN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ECj-C8-TfD"/>
+                                    <action selector="FoxSports:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cgo-d5-qbg"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hindu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bLR-Xn-zTT">
@@ -194,9 +194,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kO9-ox-31N"/>
-                    <connections>
-                        <outlet property="timesofindia" destination="wcN-VU-Se9" id="3wr-AX-DZi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

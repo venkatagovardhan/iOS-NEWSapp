@@ -16,7 +16,7 @@
     NSString *URLString;
    
 }
-@property (weak, nonatomic) IBOutlet UIButton *timesofindia;
+
 
 
 @end
@@ -30,15 +30,11 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    _timesofindia.titleLabel.text= @"the-times-of-india";
-    
-    
+   
     
     // Do any additional setup after loading the view, typically from a nib.
     
 }
-
-
 
 
 
@@ -51,8 +47,9 @@
 }
 -(void)getCountryInfo{
     
-    
-    NSURL *url = [NSURL URLWithString:URLString];
+    NSString *apiurl=@"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=";
+    NSString *finalurl=[apiurl stringByAppendingString:URLString];
+    NSURL *url = [NSURL URLWithString:finalurl];
     
     
     
@@ -62,7 +59,7 @@
         
         if (data != nil) {
             
-            //  NSLog(@"Data is %@",data);
+            
             
             // Convert the returned data into a dictionary.
             
@@ -83,16 +80,11 @@
                 
                  NSLog(@"%@",returnedDict);
                 array = [returnedDict valueForKey:@"articles"];
-                //NSString *name=[array valueForKey:@"title"];
+                
                 
                 [self getdataout];
                 
-                
-                
-                //NSLog(@"Returned Dictionary is %@",[array valueForKey:@"title"]);
-                //NSLog(@"%lu",(unsigned long)array.count);
-                
-                
+          
                 
             }
             
@@ -185,34 +177,34 @@
 
 
 - (IBAction)nextstep:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=the-times-of-india" ;
+    URLString = @"the-times-of-india" ;
     [self getCountryInfo];
 }
 
 - (IBAction)TheHindu:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=the-hindu" ;
+    URLString = @"the-hindu" ;
     [self getCountryInfo];
 }
 
 - (IBAction)BBC:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=bbc-news" ;
+    URLString = @"bbc-news" ;
     [self getCountryInfo];
 }
 
 - (IBAction)CNN:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=cnn" ;
+    URLString = @"cnn" ;
     [self getCountryInfo];
 }
 - (IBAction)ThenewYorktimes:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=the-new-york-times" ;
+    URLString = @"the-new-york-times" ;
     [self getCountryInfo];
 }
-- (IBAction)ESPN:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?source=fox-sports&sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de" ;
+- (IBAction)FoxSports:(id)sender {
+    URLString = @"fox-sports" ;
     [self getCountryInfo];
 }
 - (IBAction)NationalGeographic:(id)sender {
-    URLString = @"https://newsapi.org/v1/articles?sortBy=top&apiKey=ef3ac4e040e24b0a89007686cbb701de&source=national-geographic" ;
+    URLString = @"national-geographic" ;
     [self getCountryInfo];
 }
 
