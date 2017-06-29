@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752665D51F006CD900EE5762 /* bbc-sport.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665D41F006CD900EE5762 /* bbc-sport.png */; };
+		752665E51F006CFE00EE5762 /* business-insider.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665D61F006CFE00EE5762 /* business-insider.png */; };
+		752665E61F006CFE00EE5762 /* cnbc.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665D71F006CFE00EE5762 /* cnbc.png */; };
+		752665E71F006CFE00EE5762 /* Daily mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665D81F006CFE00EE5762 /* Daily mail.png */; };
+		752665E81F006CFE00EE5762 /* engadget.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665D91F006CFE00EE5762 /* engadget.png */; };
+		752665E91F006CFE00EE5762 /* ign.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665DA1F006CFE00EE5762 /* ign.png */; };
+		752665EA1F006CFE00EE5762 /* mtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665DB1F006CFE00EE5762 /* mtv.png */; };
+		752665EB1F006CFE00EE5762 /* new scientist.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665DC1F006CFE00EE5762 /* new scientist.png */; };
+		752665EC1F006CFE00EE5762 /* Newyork Magazine.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665DD1F006CFE00EE5762 /* Newyork Magazine.png */; };
+		752665ED1F006CFE00EE5762 /* nfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665DE1F006CFE00EE5762 /* nfl.png */; };
+		752665EE1F006CFE00EE5762 /* recode.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665DF1F006CFE00EE5762 /* recode.png */; };
+		752665EF1F006CFE00EE5762 /* reddit.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665E01F006CFE00EE5762 /* reddit.png */; };
+		752665F01F006CFE00EE5762 /* Techradar.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665E11F006CFE00EE5762 /* Techradar.png */; };
+		752665F11F006CFE00EE5762 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665E21F006CFE00EE5762 /* time.png */; };
+		752665F21F006CFE00EE5762 /* USA today.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665E31F006CFE00EE5762 /* USA today.png */; };
+		752665F31F006CFE00EE5762 /* wsj.png in Resources */ = {isa = PBXBuildFile; fileRef = 752665E41F006CFE00EE5762 /* wsj.png */; };
 		75268F851EA57B2300C0C6FD /* bbc.png in Resources */ = {isa = PBXBuildFile; fileRef = 75268F7E1EA57B2300C0C6FD /* bbc.png */; };
 		75268F861EA57B2300C0C6FD /* cnn.png in Resources */ = {isa = PBXBuildFile; fileRef = 75268F7F1EA57B2300C0C6FD /* cnn.png */; };
 		75268F871EA57B2300C0C6FD /* espn.png in Resources */ = {isa = PBXBuildFile; fileRef = 75268F801EA57B2300C0C6FD /* espn.png */; };
@@ -47,6 +63,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		752665D41F006CD900EE5762 /* bbc-sport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bbc-sport.png"; sourceTree = "<group>"; };
+		752665D61F006CFE00EE5762 /* business-insider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-insider.png"; sourceTree = "<group>"; };
+		752665D71F006CFE00EE5762 /* cnbc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cnbc.png; sourceTree = "<group>"; };
+		752665D81F006CFE00EE5762 /* Daily mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Daily mail.png"; sourceTree = "<group>"; };
+		752665D91F006CFE00EE5762 /* engadget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = engadget.png; sourceTree = "<group>"; };
+		752665DA1F006CFE00EE5762 /* ign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ign.png; sourceTree = "<group>"; };
+		752665DB1F006CFE00EE5762 /* mtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mtv.png; sourceTree = "<group>"; };
+		752665DC1F006CFE00EE5762 /* new scientist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new scientist.png"; sourceTree = "<group>"; };
+		752665DD1F006CFE00EE5762 /* Newyork Magazine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Newyork Magazine.png"; sourceTree = "<group>"; };
+		752665DE1F006CFE00EE5762 /* nfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl.png; sourceTree = "<group>"; };
+		752665DF1F006CFE00EE5762 /* recode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recode.png; sourceTree = "<group>"; };
+		752665E01F006CFE00EE5762 /* reddit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddit.png; sourceTree = "<group>"; };
+		752665E11F006CFE00EE5762 /* Techradar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Techradar.png; sourceTree = "<group>"; };
+		752665E21F006CFE00EE5762 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		752665E31F006CFE00EE5762 /* USA today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "USA today.png"; sourceTree = "<group>"; };
+		752665E41F006CFE00EE5762 /* wsj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wsj.png; sourceTree = "<group>"; };
 		75268F7E1EA57B2300C0C6FD /* bbc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbc.png; sourceTree = "<group>"; };
 		75268F7F1EA57B2300C0C6FD /* cnn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cnn.png; sourceTree = "<group>"; };
 		75268F801EA57B2300C0C6FD /* espn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espn.png; sourceTree = "<group>"; };
@@ -104,6 +136,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		752665D31F0052DB00EE5762 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				75268F8C1EA5882300C0C6FD /* AppIcon.appiconset */,
+				752665D61F006CFE00EE5762 /* business-insider.png */,
+				752665D71F006CFE00EE5762 /* cnbc.png */,
+				752665D81F006CFE00EE5762 /* Daily mail.png */,
+				752665D91F006CFE00EE5762 /* engadget.png */,
+				752665DA1F006CFE00EE5762 /* ign.png */,
+				752665DB1F006CFE00EE5762 /* mtv.png */,
+				752665DC1F006CFE00EE5762 /* new scientist.png */,
+				752665DD1F006CFE00EE5762 /* Newyork Magazine.png */,
+				752665DE1F006CFE00EE5762 /* nfl.png */,
+				752665DF1F006CFE00EE5762 /* recode.png */,
+				752665E01F006CFE00EE5762 /* reddit.png */,
+				752665E11F006CFE00EE5762 /* Techradar.png */,
+				752665E21F006CFE00EE5762 /* time.png */,
+				752665E31F006CFE00EE5762 /* USA today.png */,
+				752665E41F006CFE00EE5762 /* wsj.png */,
+				752665D41F006CD900EE5762 /* bbc-sport.png */,
+				75268F7F1EA57B2300C0C6FD /* cnn.png */,
+				75268F8E1EA597F400C0C6FD /* fox sport.jpg */,
+				75268F801EA57B2300C0C6FD /* espn.png */,
+				75268F811EA57B2300C0C6FD /* hindu.jpg */,
+				75268F821EA57B2300C0C6FD /* national geographic.png */,
+				75268F831EA57B2300C0C6FD /* newyork.jpg */,
+				75268F841EA57B2300C0C6FD /* times-of-india-logo.jpg */,
+				7576B0071E429EE40045A60F /* sat1.jpg */,
+				75268F7E1EA57B2300C0C6FD /* bbc.png */,
+			);
+			name = "supporting files";
+			sourceTree = "<group>";
+		};
 		7576AFC21E4279970045A60F = {
 			isa = PBXGroup;
 			children = (
@@ -127,23 +192,14 @@
 		7576AFCD1E4279980045A60F /* news */ = {
 			isa = PBXGroup;
 			children = (
+				752665D31F0052DB00EE5762 /* supporting files */,
 				7576AFD11E4279990045A60F /* AppDelegate.h */,
 				7576AFD21E4279990045A60F /* AppDelegate.m */,
 				7576AFD41E4279990045A60F /* ViewController.h */,
 				7576AFD51E42799A0045A60F /* ViewController.m */,
-				75268F8E1EA597F400C0C6FD /* fox sport.jpg */,
-				75268F8C1EA5882300C0C6FD /* AppIcon.appiconset */,
 				7576B0011E4280A40045A60F /* svc.h */,
 				7576B0021E4280A40045A60F /* svc.m */,
 				7576AFD71E42799A0045A60F /* Main.storyboard */,
-				75268F7E1EA57B2300C0C6FD /* bbc.png */,
-				75268F7F1EA57B2300C0C6FD /* cnn.png */,
-				75268F801EA57B2300C0C6FD /* espn.png */,
-				75268F811EA57B2300C0C6FD /* hindu.jpg */,
-				75268F821EA57B2300C0C6FD /* national geographic.png */,
-				75268F831EA57B2300C0C6FD /* newyork.jpg */,
-				75268F841EA57B2300C0C6FD /* times-of-india-logo.jpg */,
-				7576B0071E429EE40045A60F /* sat1.jpg */,
 				7576B0041E4285650045A60F /* nextcell.h */,
 				7576B0051E4285650045A60F /* nextcell.m */,
 				7576AFDA1E42799C0045A60F /* Assets.xcassets */,
@@ -290,14 +346,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				75268F891EA57B2300C0C6FD /* national geographic.png in Resources */,
+				752665E61F006CFE00EE5762 /* cnbc.png in Resources */,
+				752665F11F006CFE00EE5762 /* time.png in Resources */,
 				75268F8B1EA57B2300C0C6FD /* times-of-india-logo.jpg in Resources */,
+				752665D51F006CD900EE5762 /* bbc-sport.png in Resources */,
 				75268F881EA57B2300C0C6FD /* hindu.jpg in Resources */,
+				752665F21F006CFE00EE5762 /* USA today.png in Resources */,
+				752665ED1F006CFE00EE5762 /* nfl.png in Resources */,
+				752665EA1F006CFE00EE5762 /* mtv.png in Resources */,
+				752665EE1F006CFE00EE5762 /* recode.png in Resources */,
+				752665EC1F006CFE00EE5762 /* Newyork Magazine.png in Resources */,
 				7576B0081E429EE40045A60F /* sat1.jpg in Resources */,
+				752665EF1F006CFE00EE5762 /* reddit.png in Resources */,
+				752665E71F006CFE00EE5762 /* Daily mail.png in Resources */,
+				752665F01F006CFE00EE5762 /* Techradar.png in Resources */,
+				752665EB1F006CFE00EE5762 /* new scientist.png in Resources */,
 				75268F8D1EA5882300C0C6FD /* AppIcon.appiconset in Resources */,
 				7576AFDE1E42799D0045A60F /* LaunchScreen.storyboard in Resources */,
+				752665E91F006CFE00EE5762 /* ign.png in Resources */,
 				7576AFDB1E42799C0045A60F /* Assets.xcassets in Resources */,
+				752665E81F006CFE00EE5762 /* engadget.png in Resources */,
 				75268F8F1EA597F400C0C6FD /* fox sport.jpg in Resources */,
+				752665F31F006CFE00EE5762 /* wsj.png in Resources */,
 				75268F8A1EA57B2300C0C6FD /* newyork.jpg in Resources */,
+				752665E51F006CFE00EE5762 /* business-insider.png in Resources */,
 				75268F861EA57B2300C0C6FD /* cnn.png in Resources */,
 				7576AFD91E42799A0045A60F /* Main.storyboard in Resources */,
 				75268F851EA57B2300C0C6FD /* bbc.png in Resources */,
@@ -484,6 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goli.news;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -496,6 +569,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goli.news;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

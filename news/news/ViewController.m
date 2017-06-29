@@ -30,6 +30,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    self.title=@"Home";
    
     
     // Do any additional setup after loading the view, typically from a nib.
@@ -207,6 +208,72 @@
     URLString = @"national-geographic" ;
     [self getCountryInfo];
 }
-
+- (IBAction)BBCSports:(id)sender {
+    URLString = @"bbc-sport" ;
+    [self getCountryInfo];
+}
+- (IBAction)Business:(id)sender {
+    URLString = @"business-insider" ;
+    [self getCountryInfo];
+}
+- (IBAction)CNBC:(id)sender {
+    URLString = @"cnbc" ;
+    [self getCountryInfo];
+}
+- (IBAction)DailyMail:(id)sender {
+    URLString = @"daily-mail" ;
+    [self getCountryInfo];
+}
+- (IBAction)Engadget:(id)sender {
+    URLString = @"engadget" ;
+    [self getCountryInfo];
+}
+- (IBAction)FortuneTimes:(id)sender {
+    URLString = @"usa-today" ;
+    [self getCountryInfo];
+}
+- (IBAction)IGN:(id)sender {
+    URLString = @"ign" ;
+    [self getCountryInfo];
+}
+- (IBAction)MTVNews:(id)sender {
+    URLString = @"mtv-news" ;
+    [self getCountryInfo];
+}
+- (IBAction)NewScientist:(id)sender {
+    URLString = @"new-scientist" ;
+    [self getCountryInfo];
+}
+- (IBAction)NewyorkMagzine:(id)sender {
+    URLString = @"new-york-magazine" ;
+    [self getCountryInfo];
+}
+- (IBAction)NFL:(id)sender {
+    URLString = @"nfl-news" ;
+    [self getCountryInfo];
+}
+- (IBAction)Recode:(id)sender {
+    URLString = @"recode" ;
+    [self getCountryInfo];
+}
+- (IBAction)Reddit:(id)sender {
+    URLString = @"reddit-r-all" ;
+    [self getCountryInfo];
+}
+- (IBAction)TechRadar:(id)sender {
+    URLString = @"techradar" ;
+    [self getCountryInfo];
+}
+- (IBAction)WSJ:(id)sender {
+    URLString = @"the-wall-street-journal" ;
+    [self getCountryInfo];
+}
+- (IBAction)Time:(id)sender {
+    URLString = @"time" ;
+    [self getCountryInfo];
+}
+- (IBAction)USAToday:(id)sender {
+    
+}
 
 @end

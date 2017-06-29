@@ -16,8 +16,10 @@
 }
 @property (weak, nonatomic) IBOutlet UIWebView *page;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityindicator;
-@property (weak, nonatomic) IBOutlet UIButton *back;
+
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *back;
 
 @end
 
@@ -25,14 +27,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    
+    [self.view endEditing:YES];
+    self.navigationController.navigationBar.hidden=YES;
     array1=_data;
     NSLog(@"total news %lu",(unsigned long)array1.count);
     
     //Hide the webpage and activity indicator.
     _page.hidden=YES;
-    _back.hidden=YES;
+    _back.enabled=false;
     _activityindicator.hidden=YES;
    
     // Do any additional setup after loading the view.
@@ -89,7 +91,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
      [_activityindicator startAnimating];
     _page.hidden=false;
-    _back.hidden=false;
+    _back.enabled=true;
+    
     _tableview.hidden=true;
     _activityindicator.hidden=false;
     NSString *urlstring=[[array1 objectAtIndex:indexPath.row] valueForKey:@"url"];
@@ -102,14 +105,20 @@
     
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
-    _activityindicator.hidden=true;
+    [_activityindicator stopAnimating];
+    
     
 }
 
 - (IBAction)backaction:(id)sender {
     _page.hidden=YES;
-    _back.hidden=YES;
+    _back.enabled=false;
     _tableview.hidden=false;
+}
+- (IBAction)home:(id)sender {
+    ViewController *fvc= [self.storyboard instantiateViewControllerWithIdentifier:@"fvc"];
+    [self.navigationController pushViewController:fvc animated:YES];
+    self.title=@"Home";
 }
 
 @end
